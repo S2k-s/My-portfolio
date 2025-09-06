@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike</title>
+
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="body">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__top">
+                <div class="header__top-inner">
+                    <div class="burger-icon">
+                        <span></span>
+                    </div>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <div class="nav__red-line"></div>
+                                <a class="nav__link" href="#">
+                                    New Arrival
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#">
+                                    Men
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#">
+                                    Women
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#">
+                                    Kids
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a class="header__logo" href="/">
+                        <img src="img/icons/logos/nike-mini.svg" alt="">
+                    </a>
+                    <ul class="user-menu">
+                        <li class="user-menu__item">
+                            <label class="user-menu__label">
+                                <input class="user-menu__search" type="text" placeholder="search...">
+                            </label>
+                            <a class="user-menu__link user-menu__link--search" href="#">
+                                <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <desc>
+                                        Created with Pixso.
+                                    </desc>
+                                    <defs>
+                                        <clipPath id="clip31_53">
+                                            <rect id="Search-1" rx="0.000000" width="23.000000" height="23.000000"
+                                                transform="translate(0.500000 0.500000)" fill="white"
+                                                fill-opacity="0" />
+                                        </clipPath>
+                                    </defs>
+                                    <rect id="Search-2" rx="0.000000" width="23.000000" height="23.000000"
+                                        transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0" />
+                                    <g clip-path="url(#clip31_53)">
+                                        <path id="Vector-3"
+                                            d="M15.5 14L14.71 14L14.43 13.73C15.41 12.59 16 11.11 16 9.5C16 5.91 13.09 3 9.5 3C5.9 3 3 5.91 3 9.5C3 13.09 5.9 16 9.5 16C11.11 16 12.59 15.41 13.73 14.43L14 14.71L14 15.5L19 20.49L20.49 19L15.5 14ZM9.5 14C7.01 14 5 11.99 5 9.5C5 7.01 7.01 5 9.5 5C11.99 5 14 7.01 14 9.5C14 11.99 11.99 14 9.5 14Z"
+                                            fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
+                                    </g>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="user-menu__item">
+                            <a class="user-menu__link user-menu__link--account" href="#">
+                                <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <desc>
+                                        Created with Pixso.
+                                    </desc>
+                                    <defs>
+                                        <clipPath id="clip31_50">
+                                            <rect id="Account-1" rx="0.000000" width="23.000000" height="23.000000"
+                                                transform="translate(0.500000 0.500000)" fill="white"
+                                                fill-opacity="0" />
+                                        </clipPath>
+                                    </defs>
+                                    <rect id="Account-2" rx="0.000000" width="23.000000" height="23.000000"
+                                        transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0" />
+                                    <g clip-path="url(#clip31_50)">
+                                        <path id="Vector-4"
+                                            d="M12 12C14.21 12 16 10.21 16 8C16 5.79 14.21 4 12 4C9.78 4 8 5.79 8 8C8 10.21 9.78 12 12 12ZM12 6C13.1 6 14 6.89 14 8C14 9.1 13.1 10 12 10C10.9 10 10 9.1 10 8C10 6.89 10.9 6 12 6ZM12 14C9.33 14 4 15.34 4 18L4 20L20 20L20 18C20 15.34 14.67 14 12 14ZM6 18C6.21 17.28 9.31 16 12 16C14.7 16 17.79 17.29 18 18L6 18Z"
+                                            fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
+                                    </g>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="user-menu__item">
+                            <a class="user-menu__link" href="#">
+                                <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <desc>
+                                        Created with Pixso.
+                                    </desc>
+                                    <defs />
+                                    <path id="Vector-5"
+                                        d="M18 6L16 6C16 3.79 14.21 2 12 2C9.78 2 8 3.79 8 6L6 6C4.9 6 4 6.89 4 8L4 20C4 21.1 4.9 22 6 22L18 22C19.1 22 20 21.1 20 20L20 8C20 6.89 19.1 6 18 6ZM12 4C13.1 4 14 4.89 14 6L10 6C10 4.89 10.9 4 12 4ZM18 20L6 20L6 8L8 8L8 10C8 10.55 8.45 11 9 11C9.54 11 10 10.55 10 10L10 8L14 8L14 10C14 10.55 14.45 11 15 11C15.55 11 16 10.55 16 10L16 8L18 8L18 20Z"
+                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <section class="header__hero hero">
+                <div class="hero__inner">
+                    <div class="hero__content">
+                        <img class="hero__content-bg" src="img/bg/header-text-bg.png" alt="">
+                        <div class="hero__images">
+                            <div class="hero__rainbow">
+                                <img src="img/pictures/rainbow.png" alt="">
+                            </div>
+                            <div class="hero__black-sneaker">
+                                <img src="img/sneakers/1.png" alt="sneaker">
+                                <a class="hero__plus-one">
+                                    <svg width="16.000000" height="16.000000" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <desc>
+                                            Created with Pixso.
+                                        </desc>
+                                        <defs />
+                                        <path id="Vector-1"
+                                            d="M15 7L9 7L9 1C9 0.73 8.89 0.48 8.7 0.29C8.51 0.1 8.26 0 8 0C7.73 0 7.48 0.1 7.29 0.29C7.1 0.48 7 0.73 7 1L7 7L1 7C0.73 7 0.48 7.1 0.29 7.29C0.1 7.48 0 7.73 0 8C0 8.26 0.1 8.51 0.29 8.7C0.48 8.89 0.73 9 1 9L7 9L7 15C7 15.26 7.1 15.51 7.29 15.7C7.48 15.89 7.73 16 8 16C8.26 16 8.51 15.89 8.7 15.7C8.89 15.51 9 15.26 9 15L9 9L15 9C15.26 9 15.51 8.89 15.7 8.7C15.89 8.51 16 8.26 16 8C16 7.73 15.89 7.48 15.7 7.29C15.51 7.1 15.26 7 15 7Z"
+                                            fill="#00112C" fill-opacity="1.000000" fill-rule="nonzero" />
+                                    </svg>
+                                </a>
+                                <a class="hero__plus-two">
+                                    <svg width="16.000000" height="16.000000" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <desc>
+                                            Created with Pixso.
+                                        </desc>
+                                        <defs />
+                                        <path id="Vector-2"
+                                            d="M15 7L9 7L9 1C9 0.73 8.89 0.48 8.7 0.29C8.51 0.1 8.26 0 8 0C7.73 0 7.48 0.1 7.29 0.29C7.1 0.48 7 0.73 7 1L7 7L1 7C0.73 7 0.48 7.1 0.29 7.29C0.1 7.48 0 7.73 0 8C0 8.26 0.1 8.51 0.29 8.7C0.48 8.89 0.73 9 1 9L7 9L7 15C7 15.26 7.1 15.51 7.29 15.7C7.48 15.89 7.73 16 8 16C8.26 16 8.51 15.89 8.7 15.7C8.89 15.51 9 15.26 9 15L9 9L15 9C15.26 9 15.51 8.89 15.7 8.7C15.89 8.51 16 8.26 16 8C16 7.73 15.89 7.48 15.7 7.29C15.51 7.1 15.26 7 15 7Z"
+                                            fill="#00112C" fill-opacity="1.000000" fill-rule="nonzero" />
+                                    </svg>
+                                </a>
+                                <div class="hero__line">
+                                    <svg width="562" height="39" viewBox="0 0 562 39" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1.16738 0.864815C0.907164 0.772376 0.621285 0.908382 0.528847 1.16859C0.436408 1.4288 0.572414 1.71468 0.832625 1.80712L1.16738 0.864815ZM0.832625 1.80712C77.8671 29.1733 297.686 67.445 561.121 1.82114L560.879 0.850795C297.636 66.427 78.0172 28.1653 1.16738 0.864815L0.832625 1.80712Z"
+                                            fill="url(#paint0_linear_34_997)" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_34_997" x1="281" y1="1.33597" x2="281"
+                                                y2="37.5571" gradientUnits="userSpaceOnUse">
+                                                <stop offset="0" stop-color="white" stop-opacity="0" />
+                                                <stop offset="1" stop-color="white" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div class="hero__degree">
+                                    <a href="#">
+                                        <img src="img/icons/ect/degree.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero__info">
+                            <h2 class="hero__title subtitle">
+                                AIR JORDAN 1 RETRO HIGH OG
+                            </h2>
+                            <div class="hero__price">
+                                $275
+                                <div class="hero__size-selector">
+                                    <span>size</span>
+                                    <a class="hero__size-button" id="sizeBtn">
+                                        41 <img class="hero__size-img" src="img/icons/ect/arrow-down.svg" alt="">
+                                    </a>
+                                    <div class="hero__dropdown" id="dropdown">
+                                        <div>42</div>
+                                        <div>41</div>
+                                        <div>40</div>
+                                        <div>39</div>
+                                    </div>
+                                </div>
+                                <a class="hero__shop" href="#">
+                                    <img src="img/icons/ect/bag.svg" alt="">
+                                </a>
+                            </div>
+                            <a class="hero__button button" href="#">
+                                More Details
+                                <img src="img/icons/ect/arrow-1.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slider">
+                        <div class="slider__nav">
+                            <div class="slider__prev">
+                                <svg width="32.000000" height="32.000000" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <desc>
+                                        Created with Pixso.
+                                    </desc>
+                                    <defs />
+                                    <rect id="left-arrow-1" rx="0.000000" width="31.000000" height="31.000000"
+                                        transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0" />
+                                    <path id="Vector-6"
+                                        d="M15.05 16L19.77 11.28C20.02 11.03 20.16 10.69 20.16 10.34C20.16 9.98 20.02 9.64 19.77 9.4C19.64 9.27 19.5 9.17 19.33 9.1C19.17 9.04 19 9 18.82 9C18.65 9 18.47 9.04 18.31 9.1C18.15 9.17 18 9.27 17.87 9.4L12.22 15.05C12.1 15.17 12 15.32 11.93 15.48C11.86 15.64 11.83 15.82 11.83 16C11.83 16.17 11.86 16.35 11.93 16.51C12 16.67 12.1 16.82 12.22 16.94L17.87 22.66C18 22.79 18.15 22.88 18.31 22.95C18.47 23.02 18.65 23.05 18.82 23.05C19 23.05 19.17 23.02 19.33 22.95C19.5 22.88 19.64 22.79 19.77 22.66C20.02 22.41 20.16 22.07 20.16 21.72C20.16 21.37 20.02 21.03 19.77 20.78L15.05 16Z"
+                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
+                                </svg>
+                                Previous
+                            </div>
+                            <div class="slider__next">
+                                Next
+                                <svg width="32.000000" height="32.000000" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <desc>
+                                        Created with Pixso.
+                                    </desc>
+                                    <defs />
+                                    <rect id="left-arrow-2" rx="0.000000" width="31.000000" height="31.000000"
+                                        transform="translate(32.500000 32.500000) rotate(-179.999985)" fill="#FFFFFF"
+                                        fill-opacity="0" />
+                                    <path id="Vector-7"
+                                        d="M16.94 16L12.22 20.72C11.97 20.96 11.83 21.3 11.83 21.66C11.83 22.01 11.97 22.35 12.22 22.6C12.35 22.72 12.49 22.82 12.66 22.89C12.82 22.95 12.99 22.99 13.17 22.99C13.34 22.99 13.52 22.95 13.68 22.89C13.84 22.82 13.99 22.72 14.12 22.6L19.77 16.94C19.89 16.82 19.99 16.67 20.06 16.51C20.13 16.35 20.16 16.17 20.16 16C20.16 15.82 20.13 15.64 20.06 15.48C19.99 15.32 19.89 15.17 19.77 15.05L14.12 9.33C13.99 9.2 13.84 9.11 13.68 9.04C13.52 8.97 13.34 8.94 13.17 8.94C12.99 8.94 12.82 8.97 12.66 9.04C12.49 9.11 12.35 9.2 12.22 9.33C11.97 9.58 11.83 9.92 11.83 10.27C11.83 10.62 11.97 10.96 12.22 11.21L16.94 16Z"
+                                        fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="slider__container swiper-container swiper">
+                            <div class="slider-wrapper swiper-wrapper">
+                                <div class="slider__slide swiper-slide">
+                                    <img class="slider__img" src="img/sneakers/2.png" alt="">
+                                    <p>NIKE DYNAMO GO SE</p>
+                                </div>
+                                <div class="slider__slide swiper-slide">
+                                    <img class="slider__img" src="img/sneakers/3.png" alt="">
+                                    <p>NIKE COSMIC UNITY 2</p>
+                                </div>
+                                <div class="slider__slide swiper-slide">
+                                    <img class="slider__img" src="img/sneakers/4.png" alt="">
+                                    <p>NIKE SB DUNK HIGH</p>
+                                </div>
+                                <div class="slider__slide swiper-slide">
+                                    <img class="slider__img" src="img/sneakers/2.png" alt="">
+                                    <p>NIKE DYNAMO GO SE</p>
+                                </div>
+                                <div class="slider__slide swiper-slide">
+                                    <img class="slider__img" src="img/sneakers/3.png" alt="">
+                                    <p>NIKE COSMIC UNITY 2</p>
+                                </div>
+                                <div class="slider__slide swiper-slide">
+                                    <img class="slider__img" src="img/sneakers/4.png" alt="">
+                                    <p>NIKE SB DUNK HIGH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="header__bottom">
+                <div class="header__bottom-inner">
+                    <div class="header__bottom-text header__bottom-text--black">
+                        <p> flash flash flash flash</p>
+                    </div>
+                    <div class="header__bottom-text header__bottom-text--red">
+                        <p>flash flash flash flash</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <aside class="sidebar">
+            <br>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">
+                            New Arrival
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">
+                            Men
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">
+                            Women
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">
+                            Kids
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="sidebar__list">
+                <li class="sidebfr__item">
+                    <a class="sidebar__link" href="#">Profile</a>
+                </li>
+                <li class="sidebfr__item">
+                    <a class="sidebar__link" href="#">Profile</a>
+                </li>
+                <li class="sidebfr__item">
+                    <a class="sidebar__link" href="#">Profile</a>
+                </li>
+                <li class="sidebfr__item">
+                    <a class="sidebar__link" href="#">Profile</a>
+                </li>
+            </ul>
+        </aside>
+        <main class="main">
+            <section class="main__about about">
+                <div class="main__img-red">
+                    <img src="img/sneakers/1.1.png" alt="">
+                </div>
+                <div class="container">
+                    <div class="about__inner">
+                        <h1 class="about__title title">
+                            THE ESSENCE&nbsp;<span><img src="img/pictures/woman-3.jpeg" alt=""></span><br>
+                            <span>HANDCRAFTED</span><br>
+                            <span><img src="img/pictures/woman-2.jpeg" alt=""></span>&nbsp;&nbsp;OF FOOTWEAR.
+                        </h1>
+                        <p class="about__text">
+                            In terms of footwear, we are the first in Canada to have opened not simple "shops" but real
+                            company outlets that offer the same service as the artisan shops of yesteryear: this to make
+                            you
+                            go without fail every time you want to buy a pair of handmade genuine leather shoes. Without
+                            fear of making mistakes and with the certainty that you will be able to wear them
+                            comfortably
+                            from the beginning.
+                            <span>Are you also curious to find out why hundreds of people choose us every day?</span>
+                        </p>
+                        <a class="about__button button" href="#">
+                            Find Out More
+                            <img src="img/icons/ect/arrow-1.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="main__sales sales">
+                <div class="container">
+                    <div class="sales__inner">
+                        <h2 class="sales__title title">
+                            BEST S<span>ELLERS</span>
+                        </h2>
+                        <div class="sales__images">
+                            <div class="sales__img">
+                                <img src="img/pictures/women.jpeg" alt="девушка с белыми кроссами">
+                                <span>women</span>
+                            </div>
+                            <div class="sales__img">
+                                <img src="img/pictures/kids.jpeg" alt="ребёнок с кроссовками в руках">
+                                <span>kids</span>
+                            </div>
+                            <div class="sales__img">
+                                <img src="img/pictures/men.jpeg" alt="парень с белыми кроссами">
+                                <span>men</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__product product">
+                <div class="container">
+                    <div class="product__inner">
+                        <h2 class="product__title">
+                            SPORTS <span>TIME</span>
+                        </h2>
+                        <div class="product__content">
+                            <ul class="product__list">
+                                <li class="product__item product__item--one">
+                                    <div class="product__item-sneaker">
+                                        <img src="img/sneakers/5.png" alt="">
+                                    </div>
+                                    <img src="img/sneakers/Desk.png" alt="">
+                                    <p class="product__text">Nike Air Max Plus 3</p>
+                                </li>
+                                <li class="product__item product__item--two">
+                                    <div class="product__item-sneaker">
+                                        <img src="img/sneakers/6.png" alt="">
+                                    </div>
+                                    <img src="img/sneakers/Desk.png" alt="">
+                                    <p class="product__text">Air Jordan 4 Retro Lightning (Premium Batch)</p>
+                                </li>
+                                <li class="product__item product__item--three">
+                                    <div class="product__item-sneaker">
+                                        <img src="img/sneakers/7.png" alt="">
+                                    </div>
+                                    <img src="img/sneakers/Desk.png" alt="">
+                                    <p class="product__text">Air Jordan 13 Retro Court Purple (Reflective)</p>
+                                </li>
+                                <li class="product__item product__item--four">
+                                    <div class="product__item-sneaker">
+                                        <img src="img/sneakers/8.png" alt="">
+                                    </div>
+                                    <img src="img/sneakers/Desk.png" alt="">
+                                    <p class="product__text">Air Jordan 1 AJKO Blue Red</p>
+                                </li>
+                                <li class="product__item product__item--five">
+                                    <div class="product__item-sneaker">
+                                        <img src="img/sneakers/9.png" alt="">
+                                    </div>
+                                    <img src="img/sneakers/Desk.png" alt="">
+                                    <p class="product__text">Yeezy Boost 350 V2 MX Rock (Real Boost)</p>
+                                </li>
+                                <li class="product__item product__item--six">
+                                    <div class="product__item-sneaker">
+                                        <img src="img/sneakers/10.png" alt="">
+                                    </div>
+                                    <img src="img/sneakers/Desk.png" alt="">
+                                    <p class="product__text">Vans Old Skool Suede Honey Gold</p>
+                                </li>
+                            </ul>
+                            <a class="product__button button" href="#">
+                                Lets Discover More
+                                <img src="img/icons/ect/arrow-1.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__provide provide">
+                <div class="container">
+                    <div class="provide__inner">
+                        <div class="provide__img">
+                            <div class="provide__box"></div>
+                            <img src="img/sneakers/11.png" alt="">
+                        </div>
+                        <div class="provide__content">
+                            <h2 class="provide__title title">
+                                WE PROVIDE MODERN SHOES
+                            </h2>
+                            <p class="provide__text text">
+                                Design for the way you live your life. Atoms are beautiful in their
+                                simplicity, supporting your feet with absolute comfort.
+                            </p>
+                            <a class="provide__button button" href="#">
+                                Explore More
+                                <img src="img/icons/ect/arrow-1.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__favorite favorite">
+                <div class="container">
+                    <div class="favorite__inner">
+                        <h2 class="favorite__title title">
+                            Our Favorite <span>Nike</span> styles.
+                        </h2>
+                        <div class="favorite__content">
+                            <ul class="favorite__list">
+                                <li class="favorite__item">
+                                    <p class="favorite__text">
+                                        NIKE Mercurial Superfly
+                                        <span>$271</span>
+                                    </p>
+                                    <div class="favorite__circle"></div>
+                                    <div class="favorite__img favorite__img--one">
+                                        <img src="img/sneakers/12.png" alt="">
+                                    </div>
+                                </li>
+                                <li class="favorite__item">
+                                    <p class="favorite__text">
+                                        NIKE Air Zoom Alphafly
+                                        <span>$216</span>
+                                    </p>
+                                    <div class="favorite__circle"></div>
+                                    <div class="favorite__img favorite__img--two">
+                                        <img src="img/sneakers/13.png" alt="">
+                                    </div>
+                                </li>
+                                <li class="favorite__item favorite__item-three">
+                                    <p class="favorite__text">
+                                        NIKE Dunk High
+                                        <span>$187</span>
+                                    </p>
+                                    <div class="favorite__circle"></div>
+                                    <div class="favorite__img favorite__img--three">
+                                        <img src="img/sneakers/14.png" alt="">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="main__logos logos">
+                <div class="logos__inner">
+                    <div class="logos__img">
+                        <img src="img/icons/logos/adidas.svg" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="img/icons/logos/nike.svg" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="img/icons/logos/puma.svg" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="img/icons/logos/converse.svg" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="img/icons/logos/reebok.svg" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="img/icons/logos/vans.svg" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="img/icons/logos/jumpman.svg" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="img/icons/logos/new-balance.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <section class="main__best-shoes best-shoes">
+                <div class="container">
+                    <div class="best-shoes__inner">
+                        <div class="best-shoes__content">
+                            <h2 class="best-shoes__title title">
+                                BEST SHOES FOR THE BEST PEOPLE
+                            </h2>
+                            <p class="best-shoes__text text">
+                                Design for the way you live your life. Atoms are beautiful in
+                                their simplicity, supporting your feet with absolute comfort.
+                            </p>
+                            <a class="best-shoes__button button" href="#">
+                                Explore More
+                                <img src="img/icons/ect/arrow-1.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="best-shoes__images">
+                            <div class="best-shoes__circle"></div>
+                            <div class="best-shoes__img best-shoes__img--one">
+                                <img src="img/pictures/woman-1.jpeg" alt="">
+                            </div>
+                            <div class="best-shoes__img best-shoes__img--two">
+                                <img src="img/pictures/woman-4.jpeg" alt="">
+                            </div>
+                            <div class="best-shoes__img best-shoes__img--three">
+                                <img src="img/pictures/woman-5.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__visionaries visionaries">
+                <div class="container">
+                    <div class="visionaries__inner">
+                        <div class="visionaries__img">
+                            <img src="img/sneakers/Picture.png" alt="белый красовок с фоном в стиле самураев">
+                        </div>
+                        <div class="visionaries__content">
+                            <h2 class="visionaries__title subtitle">
+                                WE ARE <span>VISIONARIES</span>
+                            </h2>
+                            <div class="visionaries__text">
+                                <p>
+                                    Exploring the boundaries of footwear with expert design knowledge and
+                                    manufacture in mind.
+                                </p>
+                                <p>
+                                    <span>INSIGHTFUL CREATIVE DIRECTION</span> : Uniting Consumer Insights with
+                                    progressive
+                                    manufacturing methods, we create comprehensive plans to outpace your competition.
+                                </p>
+                                <p>
+                                    <span>PURPOSEFUL DESIGN</span> : We create products that captivate consumers and
+                                    elevate
+                                    brands. applying a refined sense of beauty and style, our designs are alluring.
+                                </p>
+                                <p>
+                                    <span>RELENTLESS INNOVATION</span> : We live to challenge the boundaries of
+                                    convention
+                                    and take advantage of every breakthrough opportunity big or small. we’ll help you
+                                    define
+                                    the cutting-edge of your business.
+                                </p>
+                            </div>
+                            <a class="visionaries__button button" href="#">
+                                Customization Available
+                                <img src="img/icons/ect/arrow-1.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__nikeclub nikeclub">
+                <div class="nikeclub__inner">
+                    <div class="nikeclub__content">
+                        <div class="content__info">
+                            <h2 class="nikeclub__title subtitle">
+                                JOIN OUR NIKECLUB & GET 15% OFF
+                            </h2>
+                            <p class="nikeclub__text text">
+                                Sign up for free. Join the community, Never pay for shipping.
+                            </p>
+                            <a class="nikeclub__button button" href="#">
+                                Join Us
+                                <img src="img/icons/ect/arrow-1.svg" alt="">
+                            </a>
+                        </div>
+                        <a href="#" class="nikeclub__logo">
+                            <img src="img/icons/logos/nike-big.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="main__img-black"><img src="img/sneakers/1.2.png" alt=""></div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__top">
+                    <ul class="footer__top-list">
+                        <li class="footer__top-item">
+                            <div class="footer__top-img"><img src="img/icons/ect/truck.svg" alt=""></div>
+                            <p class="footer__top-text">
+                                <span>Free Delivery</span>
+                                from $29.99
+                            </p>
+                        </li>
+                        <li class="footer__top-item">
+                            <div class="footer__top-img"><img src="img/icons/ect/clock.svg" alt=""></div>
+                            <p class="footer__top-text">
+                                <span>Free Withdrawal 1h</span>
+                                in store
+                            </p>
+                        </li>
+                        <li class="footer__top-item">
+                            <div class="footer__top-img"><img src="img/icons/ect/shield.svg" alt=""></div>
+                            <p class="footer__top-text">
+                                <span>100% Secure Payment</span>
+                                at your service
+                            </p>
+                        </li>
+                        <li class="footer__top-item">
+                            <div class="footer__top-img"><img src="img/icons/ect/box.svg" alt=""></div>
+                            <p class="footer__top-text">
+                                <span>Returns & Exchanges</span>
+                                offered 365 days
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-body">
+                    <div class="footer-body__content">
+                        <h2 class="footer-body__title subtitle">
+                            Let’s stay in touch
+                        </h2>
+                        <div class="footer-body__label">
+                            <input class="footer-body__input" type="email" placeholder="Enter email...">
+                            <button class="footer-body__button" type="submit">
+                                Subscribe
+                            </button>
+                        </div>
+                        <a href="#" class="footer-body__logo">
+                            <img src="img/icons/logos/nike-2.png" alt="логотип компании">
+                        </a>
+                    </div>
+                    <div class="footer-body__info">
+                        <nav class="footer-body__nav">
+                            <h4 class="footer-body__nav-title">
+                                SHOP
+                            </h4>
+                            <ul class="footer-body__list">
+                                <li class="footer-body__item">
+                                    <a href="#" class="footer-body__link">Mens</a>
+                                </li>
+                                <li class="footer-body__item">
+                                    <a href="#" class="footer-body__link">Womens</a>
+                                </li>
+                                <li class="footer-body__item">
+                                    <a href="#" class="footer-body__link">New Arrival</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <nav class="footer-body__nav">
+                            <h4 class="footer-body__nav-title">
+                                CONTACT US
+                            </h4>
+                            <ul class="footer-body__list">
+                                <li class="footer-body__item">
+                                    <a href="#" class="footr-body__link">Find a Store</a>
+                                </li>
+                                <li class="footer-body__item">
+                                    <a href="#" class="footer-body__link"> Contact Us</a>
+                                </li>
+                                <li class="footer-body__item">
+                                    <a href="#" class="footer-body__link">Terms & Conditions</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <nav class="footer-body__nav">
+                            <h4 class="footer-body__nav-title">
+                                OUR SERVICES
+                            </h4>
+                            <ul class="footer-body__list">
+                                <li class="footer-body__item">
+                                    <a href="#" class="footer-body__link">Customize your products</a>
+                                </li>
+                                <li class="footer-body__item">
+                                    <a href="#" class="footer-body__link"> Gift Card</a>
+                                </li>
+                                <li class="footer-body__item">
+                                    <a href="#" class="footer-body__link">Maintain & Repair</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <nav class="footer-body__nav">
+                            <h4 class="footer-body__nav-title">
+                                OUR ENTERPRISE
+                            </h4>
+                            <ul class="footer-body__list">
+                                <li class="footer-body__item">
+                                    <a href="#" class="footer-body__link">Who are we?</a>
+                                </li>
+                                <li class="footer-body__item">
+                                    <a href="#" class="footer-body__link">Press and news</a>
+                                </li>
+                                <li class="footer-body__item">
+                                    <a href="#" class="footer-body__link"> Our alliances</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <nav class="footer-body__nav footer-body__nav--long">
+                            <h4 class="footer-body__nav-title">
+                                <a class="footer-body__link">NEED HELP ?</a>
+                            </h4>
+                            <ul class="footer-body__list">
+                                <li class="footer-body__item">
+                                    <a href="#" class="footer-body__link"> My Account</a>
+                                </li>
+                                <li class="footer-body__item">
+                                    <a href="#" class="footer-body__nav">Shipping</a>
+                                </li>
+                                <li class="footer-body__item">
+                                    <a href="#" class="footer-body__link">Return & Exchanges</a>
+                                </li>
+                                <li class="footer-body__item">
+                                    <a href="#" class="footer-body__nav">FAQs</a>
+                                </li>
+                                <li class="footer-body__item">
+                                    <a href="#" class="footer-body__nav">Rewards</a>
+                                </li>
+                                <li class="footer-body__item">
+                                    <a href="#" class="footer-body__link"> Loyalty program</a>
+                                </li>
+                                <li class="footer-body__item">
+                                    <a href="#" class="footer-body__link">How to choose your product?</a>
+                                </li>
+                                <li class="footer-body__item">
+                                    <a href="#" class="footer-body__link"> Sports Trends</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="footer__bottom-copy">
+                        2022 Nike, Inc. All Rights Reserved
+                        <img src="img/icons/ect/copy.svg" alt="">
+                    </div>
+                    <div class="socials">
+                        <ul class="socials__list">
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <svg width="16.000000" height="16.000000" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <desc>
+                                            Created with Pixso.
+                                        </desc>
+                                        <defs>
+                                            <clipPath id="clip155_330">
+                                                <rect id="social-1" rx="0.000000" width="15.000000" height="15.000000"
+                                                    transform="translate(0.500000 0.500000)" fill="white"
+                                                    fill-opacity="0" />
+                                            </clipPath>
+                                        </defs>
+                                        <rect id="social-2" rx="0.000000" width="15.000000" height="15.000000"
+                                            transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0" />
+                                        <g clip-path="url(#clip155_330)">
+                                            <path id="Vector-8"
+                                                d="M9.92 6.98L7.92 5.82C7.74 5.72 7.54 5.66 7.34 5.66C7.13 5.66 6.93 5.72 6.75 5.82C6.57 5.92 6.42 6.07 6.32 6.25C6.22 6.43 6.16 6.63 6.17 6.83L6.17 9.16C6.16 9.36 6.22 9.56 6.32 9.74C6.42 9.92 6.57 10.07 6.75 10.17C6.93 10.27 7.13 10.33 7.34 10.33C7.54 10.33 7.74 10.27 7.92 10.17L9.92 9.01C10.09 8.9 10.23 8.76 10.33 8.58C10.43 8.41 10.48 8.21 10.48 8.01C10.48 7.81 10.43 7.61 10.33 7.44C10.23 7.26 10.09 7.11 9.92 7.01L9.92 6.98ZM7.49 8.87L7.49 7.12L9.01 8L7.49 8.87ZM12.66 2.66L3.33 2.66C2.8 2.66 2.29 2.87 1.91 3.25C1.54 3.62 1.33 4.13 1.33 4.66L1.33 11.33C1.33 11.86 1.54 12.37 1.91 12.74C2.29 13.12 2.8 13.33 3.33 13.33L12.66 13.33C13.19 13.33 13.7 13.12 14.08 12.74C14.45 12.37 14.66 11.86 14.66 11.33L14.66 4.66C14.66 4.13 14.45 3.62 14.08 3.25C13.7 2.87 13.19 2.66 12.66 2.66ZM13.33 11.33C13.33 11.51 13.26 11.67 13.13 11.8C13.01 11.92 12.84 12 12.66 12L3.33 12C3.15 12 2.98 11.92 2.86 11.8C2.73 11.67 2.66 11.51 2.66 11.33L2.66 4.66C2.66 4.49 2.73 4.32 2.86 4.19C2.98 4.07 3.15 4 3.33 4L12.66 4C12.84 4 13.01 4.07 13.13 4.19C13.26 4.32 13.33 4.49 13.33 4.66L13.33 11.33Z"
+                                                fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
+                                        </g>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <svg width="16.000000" height="16.000000" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <desc>
+                                            Created with Pixso.
+                                        </desc>
+                                        <defs>
+                                            <clipPath id="clip155_332">
+                                                <rect id="social-3" rx="0.000000" width="15.000000" height="15.000000"
+                                                    transform="translate(0.500000 0.500000)" fill="white"
+                                                    fill-opacity="0" />
+                                            </clipPath>
+                                        </defs>
+                                        <rect id="social-4" rx="0.000000" width="15.000000" height="15.000000"
+                                            transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0" />
+                                        <g clip-path="url(#clip155_332)">
+                                            <path id="Vector-9"
+                                                d="M12.55 6.29C12.49 6.2 12.4 6.12 12.31 6.07C12.21 6.02 12.1 6 11.99 6L9.99 6L9.99 4.66L11.46 4.66C11.64 4.66 11.81 4.59 11.93 4.47C12.06 4.34 12.13 4.17 12.13 4L12.13 1.33C12.13 1.15 12.06 0.98 11.93 0.86C11.81 0.73 11.64 0.66 11.46 0.66L9.33 0.66C8.3 0.66 7.32 1.07 6.59 1.79C5.87 2.52 5.46 3.5 5.46 4.53L5.46 6L3.99 6C3.82 6 3.65 6.07 3.52 6.19C3.4 6.32 3.33 6.49 3.33 6.66L3.33 9.33C3.33 9.51 3.4 9.67 3.52 9.8C3.65 9.92 3.82 10 3.99 10L5.46 10L5.46 14.66C5.46 14.84 5.53 15.01 5.66 15.13C5.78 15.26 5.95 15.33 6.13 15.33L9.33 15.33C9.51 15.33 9.67 15.26 9.8 15.13C9.92 15.01 9.99 14.84 9.99 14.66L9.99 10L10.93 10C11.06 10 11.19 9.96 11.3 9.88C11.41 9.81 11.5 9.7 11.55 9.58L12.61 6.91C12.66 6.81 12.67 6.7 12.66 6.59C12.65 6.48 12.61 6.38 12.55 6.29ZM10.47 8.66L9.33 8.66C9.15 8.66 8.98 8.73 8.86 8.86C8.73 8.98 8.66 9.15 8.66 9.33L8.66 14L6.79 14L6.79 9.33C6.79 9.15 6.72 8.98 6.6 8.86C6.47 8.73 6.31 8.66 6.13 8.66L4.66 8.66L4.66 7.33L6.13 7.33C6.31 7.33 6.47 7.26 6.6 7.13C6.72 7.01 6.79 6.84 6.79 6.66L6.79 4.53C6.8 3.86 7.06 3.21 7.54 2.74C8.01 2.26 8.66 2 9.33 2L10.79 2L10.79 3.33L10.26 3.33C10.04 3.3 9.81 3.31 9.59 3.37C9.37 3.43 9.16 3.53 8.98 3.68C8.87 3.79 8.79 3.92 8.73 4.07C8.68 4.22 8.65 4.37 8.66 4.53L8.66 6.66C8.66 6.84 8.73 7.01 8.86 7.13C8.98 7.26 9.15 7.33 9.33 7.33L11.01 7.33L10.47 8.66Z"
+                                                fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
+                                        </g>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <svg width="16.000000" height="16.000000" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <desc>
+                                            Created with Pixso.
+                                        </desc>
+                                        <defs>
+                                            <clipPath id="clip155_334">
+                                                <rect id="twitter-5" rx="0.000000" width="15.000000" height="15.000000"
+                                                    transform="translate(0.500000 0.500000)" fill="white"
+                                                    fill-opacity="0" />
+                                            </clipPath>
+                                        </defs>
+                                        <rect id="twitter-6" rx="0.000000" width="15.000000" height="15.000000"
+                                            transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0" />
+                                        <g clip-path="url(#clip155_334)">
+                                            <path id="Vector-10"
+                                                d="M15.32 2.63C15.32 2.51 15.29 2.39 15.23 2.29C15.17 2.19 15.09 2.11 14.99 2.05C14.88 1.99 14.77 1.96 14.65 1.96C14.53 1.96 14.42 2 14.32 2.06C13.93 2.29 13.5 2.47 13.07 2.58C12.44 2.05 11.64 1.75 10.82 1.76C9.91 1.76 9.04 2.11 8.39 2.74C7.74 3.37 7.36 4.23 7.33 5.13C5.55 4.85 3.93 3.92 2.79 2.52C2.72 2.43 2.64 2.37 2.54 2.32C2.44 2.28 2.33 2.26 2.22 2.27C2.11 2.28 2.01 2.32 1.92 2.37C1.83 2.43 1.75 2.51 1.7 2.61C1.42 3.08 1.26 3.62 1.24 4.18C1.21 4.73 1.31 5.28 1.54 5.78L1.53 5.79C1.43 5.85 1.35 5.94 1.29 6.04C1.23 6.14 1.2 6.26 1.2 6.38C1.2 6.48 1.21 6.57 1.22 6.67C1.29 7.51 1.66 8.29 2.27 8.88C2.23 8.96 2.2 9.04 2.19 9.13C2.19 9.22 2.2 9.31 2.22 9.39C2.49 10.21 3.05 10.91 3.8 11.34C3.04 11.63 2.22 11.74 1.41 11.64C1.26 11.62 1.1 11.65 0.97 11.73C0.85 11.81 0.75 11.93 0.7 12.07C0.64 12.22 0.64 12.37 0.69 12.51C0.74 12.66 0.83 12.78 0.96 12.86C2.36 13.76 3.98 14.24 5.63 14.24C7.51 14.26 9.35 13.66 10.85 12.53C12.35 11.4 13.44 9.8 13.94 7.99C14.18 7.2 14.3 6.39 14.3 5.56C14.3 5.52 14.3 5.47 14.3 5.43C14.65 5.05 14.92 4.61 15.09 4.13C15.27 3.65 15.35 3.14 15.32 2.63ZM13.12 4.77C13.01 4.9 12.95 5.07 12.96 5.24C12.97 5.35 12.97 5.46 12.97 5.56C12.97 6.26 12.86 6.95 12.67 7.62C12.25 9.16 11.34 10.52 10.06 11.47C8.79 12.43 7.23 12.94 5.63 12.9C5.06 12.9 4.49 12.83 3.93 12.7C4.64 12.47 5.31 12.12 5.9 11.66C6 11.57 6.08 11.46 6.12 11.33C6.16 11.19 6.16 11.05 6.12 10.92C6.07 10.79 5.99 10.68 5.88 10.6C5.77 10.52 5.63 10.47 5.5 10.47C4.94 10.46 4.41 10.24 4.02 9.85C4.12 9.83 4.22 9.8 4.32 9.78C4.46 9.73 4.59 9.65 4.67 9.52C4.76 9.4 4.81 9.26 4.8 9.11C4.79 8.96 4.74 8.81 4.64 8.7C4.54 8.59 4.41 8.51 4.26 8.48C3.94 8.42 3.64 8.28 3.38 8.08C3.12 7.88 2.91 7.62 2.76 7.33C2.88 7.35 3 7.36 3.13 7.36C3.27 7.36 3.41 7.32 3.53 7.24C3.65 7.15 3.74 7.03 3.78 6.9C3.83 6.76 3.82 6.61 3.77 6.47C3.73 6.33 3.64 6.22 3.51 6.14C3.22 5.94 2.98 5.68 2.82 5.37C2.65 5.06 2.56 4.71 2.57 4.36C2.57 4.31 2.57 4.27 2.57 4.22C4.06 5.62 6 6.44 8.04 6.54C8.14 6.55 8.25 6.53 8.34 6.49C8.44 6.45 8.52 6.38 8.59 6.3C8.65 6.23 8.7 6.13 8.72 6.03C8.75 5.93 8.75 5.83 8.72 5.73C8.69 5.57 8.67 5.4 8.67 5.24C8.67 4.67 8.89 4.12 9.3 3.72C9.7 3.32 10.25 3.09 10.82 3.09C11.11 3.09 11.4 3.15 11.67 3.27C11.94 3.38 12.18 3.55 12.38 3.77C12.46 3.85 12.55 3.91 12.66 3.95C12.77 3.98 12.88 3.99 12.99 3.97C13.27 3.91 13.54 3.84 13.8 3.75C13.62 4.12 13.39 4.46 13.12 4.77Z"
+                                                fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
+                                        </g>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <svg width="16.000000" height="16.000000" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <desc>
+                                            Created with Pixso.
+                                        </desc>
+                                        <defs>
+                                            <clipPath id="clip155_336">
+                                                <rect id="instagram-7" rx="0.000000" width="15.000000"
+                                                    height="15.000000" transform="translate(0.500000 0.500000)"
+                                                    fill="white" fill-opacity="0" />
+                                            </clipPath>
+                                        </defs>
+                                        <rect id="instagram-8" rx="0.000000" width="15.000000" height="15.000000"
+                                            transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0" />
+                                        <g clip-path="url(#clip155_336)">
+                                            <path id="Vector-11"
+                                                d="M11.55 3.63C11.4 3.63 11.24 3.68 11.11 3.77C10.98 3.86 10.88 3.98 10.82 4.13C10.76 4.27 10.74 4.44 10.77 4.59C10.8 4.75 10.88 4.89 10.99 5C11.1 5.11 11.24 5.19 11.4 5.22C11.55 5.25 11.71 5.23 11.86 5.17C12.01 5.11 12.13 5.01 12.22 4.88C12.31 4.75 12.35 4.59 12.35 4.43C12.35 4.22 12.27 4.02 12.12 3.87C11.97 3.72 11.77 3.63 11.55 3.63ZM14.62 5.25C14.61 4.7 14.51 4.15 14.31 3.63C14.15 3.18 13.88 2.78 13.54 2.45C13.21 2.11 12.81 1.84 12.36 1.68C11.84 1.49 11.3 1.38 10.74 1.37C10.03 1.33 9.81 1.33 7.99 1.33C6.18 1.33 5.95 1.33 5.25 1.37C4.69 1.38 4.15 1.49 3.63 1.68C3.18 1.85 2.78 2.11 2.45 2.45C2.11 2.78 1.84 3.18 1.68 3.63C1.49 4.15 1.38 4.69 1.37 5.25C1.33 5.95 1.33 6.18 1.33 8C1.33 9.81 1.33 10.04 1.37 10.74C1.38 11.29 1.49 11.84 1.68 12.36C1.84 12.81 2.11 13.21 2.45 13.54C2.78 13.88 3.18 14.14 3.63 14.31C4.15 14.5 4.69 14.61 5.25 14.62C5.95 14.66 6.18 14.66 7.99 14.66C9.81 14.66 10.03 14.66 10.74 14.62C11.3 14.61 11.84 14.5 12.36 14.31C12.81 14.15 13.21 13.88 13.54 13.54C13.88 13.21 14.15 12.81 14.31 12.36C14.51 11.84 14.61 11.29 14.62 10.74C14.62 10.04 14.66 9.81 14.66 8C14.66 6.18 14.66 5.95 14.62 5.25ZM13.42 10.66C13.42 11.08 13.34 11.5 13.19 11.9C13.09 12.19 12.92 12.45 12.69 12.67C12.48 12.89 12.22 13.06 11.93 13.17C11.53 13.31 11.11 13.39 10.69 13.39C10.02 13.43 9.77 13.43 8.02 13.43C6.27 13.43 6.02 13.43 5.35 13.39C4.92 13.4 4.48 13.33 4.06 13.19C3.79 13.08 3.54 12.91 3.33 12.69C3.11 12.48 2.94 12.22 2.83 11.93C2.67 11.52 2.58 11.1 2.57 10.66C2.57 10 2.53 9.75 2.53 8C2.53 6.24 2.53 6 2.57 5.33C2.57 4.9 2.65 4.47 2.8 4.06C2.92 3.78 3.1 3.53 3.33 3.33C3.53 3.1 3.78 2.92 4.06 2.79C4.47 2.65 4.9 2.57 5.33 2.57C5.99 2.57 6.24 2.53 7.99 2.53C9.75 2.53 9.99 2.53 10.66 2.57C11.08 2.57 11.5 2.65 11.9 2.79C12.2 2.91 12.48 3.09 12.69 3.33C12.91 3.53 13.08 3.78 13.19 4.06C13.34 4.47 13.42 4.9 13.42 5.33C13.45 6 13.46 6.24 13.46 8C13.46 9.75 13.45 10 13.42 10.66ZM7.99 4.58C7.32 4.58 6.66 4.78 6.1 5.15C5.54 5.53 5.1 6.07 4.84 6.69C4.58 7.32 4.52 8 4.65 8.67C4.78 9.33 5.11 9.94 5.59 10.41C6.06 10.89 6.67 11.22 7.34 11.35C8 11.48 8.69 11.41 9.31 11.15C9.94 10.89 10.47 10.46 10.85 9.89C11.22 9.33 11.42 8.67 11.42 8C11.42 7.54 11.33 7.1 11.16 6.68C10.99 6.27 10.74 5.89 10.42 5.57C10.1 5.25 9.72 5 9.31 4.83C8.89 4.66 8.44 4.57 7.99 4.58ZM7.99 10.21C7.56 10.21 7.13 10.08 6.76 9.84C6.4 9.6 6.11 9.25 5.94 8.84C5.78 8.44 5.73 7.99 5.82 7.56C5.9 7.13 6.11 6.74 6.43 6.42C6.74 6.11 7.13 5.9 7.56 5.82C7.99 5.73 8.44 5.78 8.84 5.94C9.25 6.11 9.6 6.4 9.84 6.76C10.08 7.13 10.21 7.56 10.21 8C10.21 8.29 10.16 8.58 10.05 8.84C9.93 9.11 9.77 9.36 9.56 9.56C9.36 9.77 9.11 9.93 8.84 10.05C8.58 10.16 8.29 10.21 7.99 10.21Z"
+                                                fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero" />
+                                        </g>
+                                    </svg>
+
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="modal modal-account">
+        <div class="modal__window">
+            <a class="modal__cancel modal-account__cancel" href="#">
+                <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <desc>
+                        Created with Pixso.
+                    </desc>
+                    <defs>
+                        <clipPath id="clip41_441">
+                            <rect id="cancel-1" rx="11.250000" width="22.500000" height="22.500000"
+                                transform="translate(0.750000 0.750000)" fill="white" fill-opacity="0" />
+                        </clipPath>
+                    </defs>
+                    <rect id="cancel-2" rx="11.250000" width="22.500000" height="22.500000"
+                        transform="translate(0.750000 0.750000)" fill="#FFFFFF" fill-opacity="0" />
+                    <g clip-path="url(#clip41_441)">
+                        <path id="Vector" d="M6.75 17.24L12 12L17.24 17.24M17.24 6.75L12 12L6.75 6.75" stroke="#E1D9E1"
+                            stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"
+                            stroke-linecap="round" />
+                    </g>
+                    <rect id="cancel-3" rx="11.250000" width="22.500000" height="22.500000"
+                        transform="translate(0.750000 0.750000)" stroke="#E1D9E1" stroke-opacity="1.000000"
+                        stroke-width="1.500000" />
+                </svg>
+            </a>
+            <div class="moda__logo">
+            </div>
+            <h3 class="modal__title">
+                Enter your email to join us or sing in.
+            </h3>
+            <p class="modal__text">
+                Kyrgyzstan
+                <a href="#">Change</a>
+            </p>
+            <div class="modal__form">
+                <label class="modal__form-label field">
+                    <input class=" field__input" type="email" placeholder="Email*">
+                    <span>Введите email</span>
+                </label>
+                <p class="modal__warning">
+                    By continuing, I agree to Nike's <a href="#">Privacy Policy.</a> and <a href="#">Terms of Use.</a>
+                </p>
+                <button class="modal__button" type="submit">
+                    Continue
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>

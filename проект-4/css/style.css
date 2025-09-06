@@ -1,0 +1,1158 @@
+@import "fonts.css";
+@import "reset.css";
+@import "global.css";
+
+@import "header.css";
+@import "footer.css";
+
+
+/* ================================================== */
+
+.main {
+    background: url("../img/bg/main-bg.png") 0% 20% no-repeat;
+}
+
+.main__about,
+.main__nikeclub {
+    position: relative;
+}
+
+.main__img-red {
+    position: absolute;
+    max-width: 746px;
+    transform: rotate(32.64deg);
+    bottom: -21%;
+    left: -20%;
+    z-index: 1;
+}
+
+.main__img-black {
+    position: absolute;
+    max-width: 798px;
+    bottom: -52%;
+    right: -16%;
+    z-index: 1;
+}
+
+.main__img-red img,
+.main__img-black img {
+    width: 100%;
+}
+
+.about__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.about__title {
+    line-height: 100px;
+    text-align: center;
+    max-width: 611px;
+    position: relative;
+}
+
+.about__title span {
+    background: linear-gradient(10deg, var(--general-color-two) 63%, var(--accent-color) 60%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.about__text {
+    text-align: center;
+    max-width: 1064px;
+    line-height: 48px;
+}
+
+.about__text span {
+    display: block;
+    text-align: center;
+}
+
+.about__button {
+    max-width: 175px;
+}
+
+
+/* ================================================== */
+
+
+.sales {}
+
+.sales__inner {}
+
+.sales__title {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.sales__title span {
+    background: linear-gradient(10deg, var(--general-color-two) 36%, var(--accent-color) 30%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.sales__images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.sales__img {
+    max-width: 416px;
+    font-family: 'WorkSans', sans-serif;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 700;
+    font-style: italic;
+    color: transparent;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px var(--general-color-two);
+    position: relative;
+}
+
+.sales__img span {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 10px;
+}
+
+.sales__img img {
+    width: 100%;
+}
+
+
+/* ================================================== */
+
+
+.product {}
+
+.product__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product__title {
+    font-family: 'WorkSans', sans-serif;
+    font-style: italic;
+    font-size: 84px;
+    font-weight: 900;
+    line-height: 110%;
+    text-transform: capitalize;
+    transform: rotate(-10.67deg);
+    max-width: 480px;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.product__title span {
+    color: transparent;
+    position: absolute;
+    top: 62%;
+    right: -6%;
+    -webkit-text-stroke: 1px var(--general-color-two);
+}
+
+.product__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__list {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    justify-content: center;
+    align-items: end;
+    gap: 40px 80px;
+    margin-bottom: 120px;
+}
+
+.product__item {
+    display: grid;
+    grid-template: 1fr / 1fr;
+    align-items: end;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: -1.4px;
+    line-height: 29px;
+    max-width: 400px;
+}
+
+.product__item img {
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.product__item-sneaker {
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.25));
+    margin-bottom: -50px;
+}
+
+.product__item--three,
+.product__item--four {
+    grid-row: 2 / 3;
+}
+
+.product__item--three {
+    grid-column: 2 / 3;
+}
+
+.product__item--four {
+    grid-column: 3 / 4;
+}
+
+.product__item--five,
+.product__item--six {
+    grid-row: 3 / 4;
+}
+
+.product__button {
+    max-width: 204px;
+}
+
+/* ================================================== */
+
+
+.provide {}
+
+.provide__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.provide__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 357px;
+    border-radius: 111px;
+}
+
+.provide__img img {
+    width: 100%;
+}
+
+.provide__box {
+    border-radius: 10px;
+    background: conic-gradient(from 180deg at 50% 50%, #ba000075, #ba000075);
+    box-shadow: 0 0 10vw 3vw #ba000075;
+    width: 300px;
+    height: 300px;
+}
+
+
+.provide__img img {
+    position: absolute;
+    left: 0;
+    transform: rotate(9.69deg);
+}
+
+.provide__content {
+    max-width: 715px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.provide__title {
+    margin-bottom: 24px;
+}
+
+.provide__text {
+    margin-bottom: 40px;
+}
+
+.provide__button {
+    max-width: 165px;
+}
+
+
+/* ================================================== */
+
+
+.favorite {}
+
+.container {}
+
+.favorite__inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.favorite__title {
+    line-height: 64px;
+    margin-bottom: 110px;
+}
+
+.favorite__title span {
+    position: relative;
+    display: inline-block;
+    color: var(--accent-color);
+}
+
+.favorite__title span::after {
+    content: '';
+    background: radial-gradient(50.00% 50.00% at 50% 50%, #ffffff4d, #ffffff00 100%);
+    width: 100%;
+    height: 32px;
+    position: absolute;
+    left: 10px;
+    bottom: -25px;
+}
+
+.favorite__content {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.favorite__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+}
+
+.favorite__item {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: start;
+    gap: 16px;
+    max-width: 313px;
+    height: 245px;
+    position: relative;
+}
+
+.favorite__circle {
+    filter: blur(120px);
+    background: conic-gradient(from 180deg at 80% 10%, #ff0000, #ff000000);
+    width: 100%;
+    height: 100%;
+}
+
+.favorite__img {
+    position: absolute;
+    top: 20%;
+    left: -40%;
+    max-width: 235px;
+}
+
+.favorite__img img {
+    width: 100%;
+}
+
+.favorite__img--two {
+    transform: rotate(-24.38deg);
+}
+
+.favorite__img--three {
+    transform: rotate(-20.71deg);
+}
+
+.favorite__text {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: end;
+    width: 100%;
+}
+
+.favorite__text span {
+    text-align: end;
+    display: block;
+    color: var(--accent-color);
+}
+
+
+/* ================================================== */
+
+
+.logos {}
+
+.logos__inner {
+    display: flex;
+    margin: 0 40px;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logos__img {
+    max-width: 100px;
+}
+
+.logos__img img {
+    width: 100%;
+}
+
+
+/* ================================================== */
+
+
+.best-shoes {}
+
+.best-shoes__inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+}
+
+.best-shoes__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 618px;
+}
+
+.best-shoes__title {
+    margin-bottom: 32px;
+}
+
+.best-shoes__text {
+    margin-bottom: 40px;
+}
+
+.best-shoes__button {
+    max-width: 165px;
+    max-height: 42px;
+}
+
+.best-shoes__images {
+    display: grid;
+    grid-template: repeat(3, 1fr) / 240px 320px;
+    position: relative;
+    gap: 30px 40px;
+
+}
+
+.best-shoes__circle {
+    border-radius: 50%;
+    filter: blur(150px);
+    background: conic-gradient(from 180deg at 50% 50%, rgb(186, 0, 0), rgba(186, 0, 0, 0.28));
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    z-index: -1;
+}
+
+.best-shoes__img {}
+
+.best-shoes__img--one {
+    max-width: 320px;
+}
+
+.best-shoes__img--two,
+.best-shoes__img--three {
+    max-width: 240px;
+}
+
+.best-shoes__img--one {}
+
+.best-shoes__img--two {
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+}
+
+.best-shoes__img--three {
+    grid-column: 2 / 3;
+    grid-row: 2 / -1;
+    margin-left: 60px;
+}
+
+.best-shoes__img img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+/* ================================================== */
+
+
+.visionaries {}
+
+.container {}
+
+.visionaries__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.visionaries__img {
+    max-width: 416px;
+}
+
+.visionaries__img img {
+    width: 100%;
+}
+
+.visionaries__content {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    max-width: 680px;
+
+}
+
+.visionaries__title {
+    margin-bottom: 32px;
+}
+
+.visionaries__title span {
+    color: var(--accent-color);
+}
+
+.visionaries__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-bottom: 32px;
+}
+
+.visionaries__text p {
+    margin-bottom: 24px;
+}
+
+.visionaries__text p:first-child {
+    margin-bottom: 32px;
+}
+
+.visionaries__text p:last-child {
+    margin-bottom: 0px;
+}
+
+.visionaries__text span {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
+
+.visionaries__button {
+    font-size: 16px;
+    max-width: 241px;
+    max-height: 42px;
+}
+
+
+/* ================================================== */
+
+
+.nikeclub {}
+
+.nikeclub__inner {
+    margin: 80px 100px;
+    border: 1px solid var(--general-color-two);
+    border-radius: 10px;
+}
+
+.nikeclub__content {
+    margin: 65px 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.content__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.nikeclub__title {
+    margin-bottom: 16px;
+}
+
+.nikeclub__text {
+    margin-bottom: 32px;
+}
+
+.nikeclub__button {
+    max-width: 123px;
+    max-height: 42px;
+}
+
+.nikeclub__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ================================================== */
+/* ================================================== */
+/* ================================================== */
+
+
+
+
+
+@media(max-width: 1200px) {
+
+    .hero__rainbow,
+    .hero__plus-one,
+    .hero__plus-two,
+    .main__img-red,
+    .main__img-black {
+        display: none;
+    }
+
+    /* =================== */
+
+    .favorite__content {}
+
+    .favorite__list {
+        gap: 40px;
+    }
+
+    .favorite__img {
+        top: 25%;
+    }
+
+    /* ==================== */
+
+    .best-shoes__inner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .best-shoes__content {
+        align-items: center;
+    }
+
+    .best-shoes__title,
+    .best-shoes__text {
+        text-align: center;
+    }
+
+    /* ==================== */
+
+    .visionaries__inner {
+        flex-direction: column-reverse;
+    }
+
+    .visionaries__content {
+        align-items: center;
+    }
+
+    .visionaries__title {
+        text-align: center;
+    }
+
+    .visionaries__text {
+
+        text-align: center;
+    }
+
+    .visionaries__button {
+        margin-bottom: 30px;
+    }
+
+    /* ==================== */
+
+    .footer-body {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-body__content {
+        align-items: center;
+    }
+
+    .footer-body__title {
+        text-align: center;
+    }
+
+    /* ==================== */
+
+
+}
+
+@media(max-width: 1100px) {
+
+    .container {
+        padding: 0 40px;
+    }
+
+    /* ======================= */
+
+    .header__top-inner {
+        grid-template-columns: 1fr auto 1fr;
+    }
+
+    .header__logo {
+        margin: 0 auto;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .sidebar.active {
+        display: flex;
+    }
+
+    .sidebar.active .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .sidebar.active .nav__list {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    /* =============== */
+
+    .hero__degree,
+    .hero__line {
+        display: none;
+    }
+
+    /* ==================== */
+
+    .slider__slide {
+        font-size: 22px;
+    }
+
+    .slider__img {
+        max-width: 200px;
+    }
+
+    /* ====================== */
+
+    .sales__img {
+        font-size: 32px;
+        line-height: 32px;
+        font-weight: 400;
+    }
+
+    /* ====================== */
+
+    .product__list {
+        justify-content: center;
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .product__item {
+        font-size: 16px;
+        letter-spacing: -1px;
+        line-height: 16px;
+    }
+
+    .product__item-sneaker {
+        filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.25));
+        margin-bottom: -30px;
+    }
+
+    .product__item--three {
+        grid-column: 1 / 2;
+    }
+
+    .product__item--four {
+        grid-column: 2 / 3;
+    }
+
+    /* ======================= */
+
+    .nikeclub__inner {
+        margin: 80px 60px;
+    }
+
+    .nikeclub__content {
+        margin: 40px 25px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .content__info {
+        align-items: center;
+    }
+
+    .nikeclub__title,
+    .nikeclub__text {
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 900px) {
+
+    .favorite__content {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .favorite__title {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .favorite__list {
+        grid-template: none;
+        gap: 40px;
+    }
+
+    .favorite__img {
+        left: 0;
+    }
+
+}
+
+@media(max-width: 800px) {
+
+    .header__bottom,
+    .main__about,
+    .main__sales,
+    .main__product,
+    .main__provide,
+    .main__best-shoes,
+    .main__visionaries {
+        margin-bottom: 120px;
+    }
+
+    .main__favorite,
+    .main__logos,
+    .main__nikeclub {
+        margin-bottom: 150px;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .title {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .subtitle {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    /* ================== */
+
+    .header__top {
+        padding: 20px 15px;
+    }
+
+    .user-menu {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: end;
+        gap: 10px;
+    }
+
+    .header__hero {
+        padding: 80px 30px;
+    }
+
+    .hero__content {
+        grid-template: none;
+        gap: 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero__images {
+        justify-content: center;
+    }
+
+    .hero__black-sneaker {
+        max-width: 280px;
+    }
+
+    .hero__black-sneaker img {
+        transform: rotate(0);
+    }
+
+    .hero__info {
+        justify-content: center;
+    }
+
+    .hero__title {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .hero__price {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .hero__size-selector {
+        font-size: 24px;
+    }
+
+    /* ========================== */
+
+    .hero__info {
+        align-items: center;
+    }
+
+    .hero__price {
+        align-items: center;
+    }
+
+    .hero__size-selector {
+        grid-column: 3 / 4;
+    }
+
+    .hero__shop {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+        align-items: end;
+    }
+
+    /* ========================== */
+
+    .slider {
+        flex-direction: column;
+    }
+
+
+    .slider__img {
+        left: 20px;
+    }
+
+    /* ================= */
+
+    .header__bottom-text {
+        top: -105px;
+        font-size: 24px;
+    }
+
+    .header__bottom-text p {
+        word-spacing: 7vw;
+        padding: 0;
+    }
+
+    /* ================= */
+
+    .about__inner {
+        gap: 20px;
+    }
+
+    .about__title img,
+    .about__title br {
+        display: none;
+    }
+
+    .about__text {
+        line-height: 30px;
+    }
+
+    /* ==================== */
+
+    .sales__img {
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: 400;
+        margin: 0 20px;
+    }
+
+    /* ===================== */
+
+    .product__title {
+        font-size: 52px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .product__title span {
+        top: 62%;
+        right: 12%;
+        -webkit-text-stroke: 1px var(--general-color-two);
+    }
+
+    .product__list {
+        margin-bottom: 50px;
+    }
+
+    /* ====================================== */
+
+    .provide__img,
+    .provide__box {
+        display: none;
+    }
+
+    .provide__content {
+        align-items: center;
+    }
+
+    .provide__title,
+    .provide__text {
+        text-align: center;
+    }
+
+    /* =========================== */
+
+    .logos__inner {
+        margin: 0 20px;
+        gap: 20px;
+    }
+
+    /* =========================== */
+
+    .best-shoes__images {
+        display: none;
+    }
+
+    /* =========================== */
+
+    .footer__top-list {
+        padding: 0;
+    }
+
+    /* =========================== */
+
+    .footer-body__info {
+        grid-template: repeat(3, auto) / repeat(2, 1fr);
+    }
+
+    
+    .footer-body__nav-title,
+    .footer-body__list {
+        text-align: center;
+    }
+
+    .footer-body__nav--long {
+        grid-row: 3 / 4;
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+
+    /* =========================== */
+
+
+}
+
+@media(max-width: 600px) {
+
+    .title {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    /* =================== */
+
+    .slider {
+        gap: 25px;
+    }
+
+    .slider__slide {
+        font-size: 16px;
+    }
+
+    .slider__img {
+        width: 200px;
+        left: 15px;
+    }
+
+    /* ==================== */
+
+    .sales__title {
+        margin-bottom: 30px;
+    }
+
+    .sales__images {
+        flex-direction: column;
+    }
+
+    /* ============================= */
+
+    .product__item {
+        font-size: 3vw;
+        letter-spacing: 0;
+        line-height: 16px;
+        align-items: start;
+    }
+
+    /* ============================== */
+
+    .favorite__list {
+        gap: 10px;
+    }
+
+    /* ============================== */
+
+    .nikeclub__inner {
+        margin: 80px 25px;
+    }
+
+    .nikeclub__content {
+        margin: 30px 10px;
+    }
+
+    /* ============================== */
+
+    .footer-body__label {
+        margin-bottom: 50px;
+    }
+
+    .footer-body__input {
+        padding: 10px 20px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .footer-body__button {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        padding: 10px 20px;
+    }
+
+    .footer-body__info {
+        grid-template: none;
+        gap: 30px;
+    }
+
+    .footer-body__nav {
+        gap: 12px;
+    }
+
+    .footer-body__list {
+        text-align: center;
+    }
+
+    .footer-body__nav--long {
+        text-align: center;
+    }
+
+    .footer-body__item {
+        margin-bottom: 8px;
+    }
+
+    /* =========================== */
+
+    .footer__bottom {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+}
